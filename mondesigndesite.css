@@ -11,13 +11,13 @@ h1,h2,h3{
 }
 
 h1 {
-	color: #575F7D;
+	color:#79155B;
 	font-size: 32px;
 	font-weight:900;
 }
 
 h2 { 
-	color:#7ECE90;
+	color:#C23373;
 	font-size:20px;
 	font-weight:lighter;
 	font-weight:500;
@@ -32,11 +32,17 @@ a{
 }
 
 a:hover{
-		color:black;
+		color:#F6635C;
 }
 
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
 
-
+.list-inline i {
+	font-size:50px ;
+}
 
 /*Custome Design*/
 .container{
@@ -65,12 +71,12 @@ a:hover{
 	text-align: center;
 }
 
-.img-circle{
-	border-radius: 50%;
+.img-circle {
+	border-radius: 100%;
 }
 
 .btn-blue{
-	background-color: #6B72E1;
+	background-color: #F6635C;
 	color: white;
 	padding: 15px 20px;
 	border-radius: 4px;
